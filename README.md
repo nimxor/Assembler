@@ -1,26 +1,19 @@
-/*
-Team Members :
-Name :                 	        Roll No:
-Shubham Gupta    		14ucs115
-Samriddh Kulshrestha            14ucs100
-Shailesh Singh			14ucs106
-Rahul Vyas			14ucs092	
-*/
+# Assembler
 
-//Steps to generate opcode and symbol table:
+###Steps to generate opcode and symbol table:
 Symbol table is generated in "symbol1.txt" . 
 Step1 :	We have two input files for our program in assembly language name "inp1.txt" and "inp2.txt".
 Step2 : 1.c : Code to generate every assembly instruction into 32 bit binary instuction .
 Step3 : After Execution of 1.c corresponding to "inp1.txt" , "out1.txt" will be generated along with "symbol1.txt" .
 Step4 :	2.c : Code to generate final output ,states of flag registers and ALU control signals are displayed .
 
-//Execution of code
+###Execution of code
 1 . gcc 1.c
 2 . ./a.out
 3 . gcc 2.c
 4 . ./a.out
 
-//ISA Design Instruction
+###ISA Design Instruction
 Note : In immediate Addressing mode we are only able to pass integer values ranging from 0 to 31 as we have alloted 5 bit for the constant
 Note : HERE WE CAN ONLY TAKE LABEL IN THE FORM OF ONE ALPHABET  AND ONE NUMERICAL VALUE THAT IS L1 .
 Note : We have used R31 as our special purpose register. */
