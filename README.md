@@ -2,10 +2,10 @@
 
 ###Steps to generate opcode and symbol table:
 Symbol table is generated in "symbol1.txt" . 
-Step1 :	We have two input files for our program in assembly language name "inp1.txt" and "inp2.txt".
-Step2 : 1.c : Code to generate every assembly instruction into 32 bit binary instuction .
-Step3 : After Execution of 1.c corresponding to "inp1.txt" , "out1.txt" will be generated along with "symbol1.txt" .
-Step4 :	2.c : Code to generate final output ,states of flag registers and ALU control signals are displayed .
+1. :  We have two input files for our program in assembly language name "inp1.txt" and "inp2.txt".
+2. :  1.c : Code to generate every assembly instruction into 32 bit binary instuction .
+3. :  After Execution of 1.c corresponding to "inp1.txt" , "out1.txt" will be generated along with "symbol1.txt" .
+4. :  2.c : Code to generate final output ,states of flag registers and ALU control signals are displayed .
 
 ###Execution of code
 1. gcc 1.c
@@ -14,9 +14,9 @@ Step4 :	2.c : Code to generate final output ,states of flag registers and ALU co
 4. ./a.out
 
 ###ISA Design Instruction
-####Note : In immediate Addressing mode we are only able to pass integer values ranging from 0 to 31 as we have alloted 5 bit for the constant
-####Note : HERE WE CAN ONLY TAKE LABEL IN THE FORM OF ONE ALPHABET  AND ONE NUMERICAL VALUE THAT IS L1 .
-####Note : We have used R31 as our special purpose register. */
+######Note : In immediate Addressing mode we are only able to pass integer values ranging from 0 to 31 as we have alloted 5 bit for the constant
+######Note : HERE WE CAN ONLY TAKE LABEL IN THE FORM OF ONE ALPHABET  AND ONE NUMERICAL VALUE THAT IS L1 .
+######Note : We have used R31 as our special purpose register. */
 
 1. MOV #16,ROO  /* HERE WE MOVE VALUE 16 INTO REGISTER R00 */
 2. MOV ROO,RO2  /* HERE WE MOVE THE CONTENT OF R00 AND STORES IT INTO R02 */
