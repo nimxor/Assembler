@@ -1,4 +1,4 @@
-# Assembler
+# ISA
 
 ###Steps to generate opcode and symbol table:
 ######Symbol table is generated in "symbol1.txt" . 
